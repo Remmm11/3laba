@@ -26,10 +26,8 @@ def print_matrix(matrix):  # Функция вывода матрицы
         print()
 
 
-n = int(input('Введите число число N большее 4: '))
-while n < 5:
-    n = int(input('Ошибка, N < 5: '))
-k = int(input('Введите число K: '))
+n = int(input('N: '))
+k = int(input('K: '))
 
 cnt_ch1 = sum_nchstr4 = 0
 middle_n = ceil(n / 2)  # Середина матрицы
